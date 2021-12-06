@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1638760971385.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1815097202",
+    "id" : "AE9E218D",
+    "lastKnownWriteTime" : 1638762122,
+    "last_content_update" : 1638762122674,
+    "path" : "C:/Users/CES-UVG/workspace svn-R/Clase2Shiny/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+        "cursorPosition" : "25,35",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

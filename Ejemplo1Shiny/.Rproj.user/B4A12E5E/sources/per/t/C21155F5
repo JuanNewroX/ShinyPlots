@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1638758566631.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3878986929",
+    "id" : "C21155F5",
+    "lastKnownWriteTime" : 1638759517,
+    "last_content_update" : 1638759517900,
+    "path" : "C:/Users/CES-UVG/workspace svn-R/Clase_ShinyApps/HolaMundo/ui.R",
+    "project_path" : "HolaMundo/ui.R",
+    "properties" : {
+        "cursorPosition" : "13,67",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
