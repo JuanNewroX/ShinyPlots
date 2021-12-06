@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "794429418",
+    "hash" : "4169079150",
     "id" : "FA51233A",
-    "lastKnownWriteTime" : 1638762241,
-    "last_content_update" : 1638762241386,
-    "path" : "C:/Users/CES-UVG/workspace svn-R/Clase2Shiny/server.R",
+    "lastKnownWriteTime" : 1638763960,
+    "last_content_update" : 1638763960554,
+    "path" : "C:/Users/CES-UVG/workspace svn-R/ShinyPlots/Ejemplo2Shiny/server.R",
     "project_path" : "server.R",
     "properties" : {
-        "cursorPosition" : "32,2",
-        "scrollLine" : "12"
+        "cursorPosition" : "40,49",
+        "scrollLine" : "20"
     },
     "read_only" : false,
     "read_only_alternatives" : [

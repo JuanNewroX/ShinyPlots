@@ -41,4 +41,20 @@ shinyServer(function(input, output, session) {
     updateNumericInput(session, "celcius", value = c)
   })
   
+  observeEvent(input$dist,{
+    updateTabsetPanel(session, "params", selected = input$dist)
+  })
+  
+  sample_dist <- reactive({
+    switch (input$dist,
+      "Normal" = rnorm(n =  input$n_random, mean = input$media, sd = input$sd),
+      "Uniforme" = runif(input$n_random, input$unif_min, input$unif_max),
+      "Exponencial" = rexp(input$n_random, input$razon)
+    )
+  })
+  
+  output$plot_dist <- renderPlot({
+    hist(sample_dist())
+  })
+  
 })

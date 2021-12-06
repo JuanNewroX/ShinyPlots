@@ -24,6 +24,33 @@ shinyUI(fluidPage(
         tabPanel('Ejemplo 5', 
                  numericInput('celcius', "Temperatura C", value=NA),
                  numericInput('Fare', "Temperatura F", value=NA),
+        ),
+        tabPanel('Ejemplo 6', 
+            br(),
+            selectInput("dist", "Seleccione la distribucion",
+                        choices = c("Normal","Uniforme", "Exponencial")),
+            numericInput("n_random","Cuantos numeros aleatorios", value = 100, min = 0),
+            hr(),
+            tabsetPanel(
+                id="params",
+                type="hidden",
+                tabPanel("Normal",
+                         h1("Distribucion normal"),
+                         numericInput("media", "media", value = 0),
+                         numericInput("sd", "sd", value = 1),
+                         ),
+                tabPanel("Uniforme",
+                         h1("Distribucion Uniforme"),
+                         numericInput("unif_min", "minimo", value = 0),
+                         numericInput("unif_max", "maximo", value = 1),
+                ),
+                tabPanel("Exponencial",
+                         h1("Exponencial"),
+                         numericInput("razon", "razon", value = 1, min = 0),
+                ),
+                
+            ),
+            plotOutput("plot_dist")
         )
     )
 ))
